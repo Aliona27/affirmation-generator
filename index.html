@@ -7,30 +7,37 @@
     <title>AI Affirmation Generator</title>
   </head>
   <body>
-    <h1>AI Affirmation Generator</h1>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Type a word and I`ll turn it into your
-        affirmation.."
-          autofocus
-          required
-        />
-        <input type="submit" />
-        <div>The affirmation will appear here</div>
-      </form>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/Aliona27" target="_blank">Alona Liashenko</a>
-      and is open-sourced
-      <a
-        href="https://github.com/Aliona27/affirmation-generator"
-        target="_blank"
-        >on GitHub</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Affirmation Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Type a word and I`ll turn it into your affirmation.."
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="affirmation">The affirmation will appear here🍃</div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/Aliona27" target="_blank"
+          >Alona Liashenko</a
+        >
+        and is open-sourced
+        <a
+          href="https://github.com/Aliona27/affirmation-generator"
+          target="_blank"
+          >on GitHub</a
+        >
+      </footer>
+    </div>
     <script src="src/app.js"></script>
   </body>
 </html>
